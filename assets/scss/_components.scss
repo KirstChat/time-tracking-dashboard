@@ -117,7 +117,7 @@
 
   &--work {
     background-color: $card-orange;
-    background-image: url('../assets/images/icon-work.svg');
+    background-image: url('./time-tracking-dashboard/assets/images/icon-work.svg');
     @include bg-img;
   }
 
