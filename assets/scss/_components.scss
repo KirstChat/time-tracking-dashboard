@@ -117,37 +117,37 @@
 
   &--work {
     background-color: $card-orange;
-    background-image: url('./time-tracking-dashboard/assets/images/icon-work.svg');
+    background-image: url('../../assets/images/icon-work.svg');
     @include bg-img;
   }
 
   &--play {
     background-color: $card-blue;
-    background-image: url('/assets/images/icon-play.svg');
+    background-image: url('../../assets/images/icon-play.svg');
     @include bg-img;
   }
 
   &--study {
     background-color: $card-pink;
-    background-image: url('/assets/images/icon-study.svg');
+    background-image: url('../../assets/images/icon-study.svg');
     @include bg-img;
   }
 
   &--exercise {
     background-color: $card-green;
-    background-image: url('/assets/images/icon-exercise.svg');
+    background-image: url('../../assets/images/icon-exercise.svg');
     @include bg-img;
   }
 
   &--social {
     background-color: $card-purple;
-    background-image: url('/assets/images/icon-social.svg');
+    background-image: url('../../assets/images/icon-social.svg');
     @include bg-img;
   }
 
   &--selfcare {
     background-color: $card-yellow;
-    background-image: url('/assets/images/icon-self-care.svg');
+    background-image: url('../../assets/images/icon-self-care.svg');
     @include bg-img;
   }
 }
