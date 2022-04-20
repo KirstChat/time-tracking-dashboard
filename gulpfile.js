@@ -7,22 +7,22 @@ const terser = require('gulp-terser');
 
 // Compile Sass into CSS
 function compileScss() {
-  return src('./assets/scss/**/*.scss')
+  return src('assets/scss/**/*.scss')
     .pipe(sass())
     .pipe(prefix())
     .pipe(minify())
-    .pipe(dest('./dist/css'));
+    .pipe(dest('dist/css'));
 }
 
 // Minify JS
 function jsMin() {
-  return src('./assets/js/**/*.js').pipe(terser()).pipe(dest('./dist/js'));
+  return src('assets/js/**/*.js').pipe(terser()).pipe(dest('dist/js'));
 }
 
 // Watch files for changes
 function watchTask() {
-  watch('./assets/scss/**/*.scss', compileScss);
-  watch('./assets/js/**/*.js', jsMin);
+  watch('assets/scss/**/*.scss', compileScss);
+  watch('assets/js/**/*.js', jsMin);
 }
 
 // Run functions
